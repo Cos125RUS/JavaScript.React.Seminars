@@ -1,0 +1,11 @@
+.light {
+    background-color: aliceblue;
+    color: #282c34;
+    min-height: 100vh;
+}
+
+.dark {
+    background-color: #282c34;
+    color: white;
+    min-height: 100vh;
+}
