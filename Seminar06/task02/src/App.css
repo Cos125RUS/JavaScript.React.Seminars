@@ -1,0 +1,11 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+}
