@@ -1,6 +1,7 @@
 import {configureStore} from "@reduxjs/toolkit";
 import userSaga, {sagaMiddleware} from "./userSaga";
-import userReducer from "./userReducer";
+// import userReducer from "./userReducer";
+import userReducer from "./userSlice";
 import logMiddleware from "./logMiddleware";
 
 const store = configureStore({
